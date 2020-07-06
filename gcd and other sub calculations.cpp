@@ -25,6 +25,7 @@ long long lcd_array(std::vector<long long> &a){
 	}
 	return a.back();
 }
-long long abs(long long a){
+template <typename T>
+T abs(T a){
 	return (a>0)?a:-a;
 }
