@@ -1,4 +1,7 @@
+#ifndef bits
+#define bits
 #include<bits/stdc++.h>
+#endif
 #define _USE_MATH_DEFINES
 typedef std::complex<double> cpx;
 const int max_size=1<<21;
