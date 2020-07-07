@@ -14,7 +14,7 @@ void FFT(cpx f[],bool inverse=false){
 	int n=max_size;
 	for(int i=1,j=0;i<n;i++){
 		int b=n/2;
-		while(!((j^=b))&b)b/=2;
+		while(!((j^=b)&b))b/=2;
 		if(i<j){
 			swap(&f[i],&f[j]);
 		}
